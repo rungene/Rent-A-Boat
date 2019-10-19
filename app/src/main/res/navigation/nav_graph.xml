@@ -30,5 +30,18 @@
         android:id="@+id/homeFragment"
         android:name="com.rungenes.rent_a_boat.homeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_boatFragment"
+            app:destination="@id/boatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boatFragment"
+        android:name="com.rungenes.rent_a_boat.BoatFragment"
+        android:label="fragment_boat"
+        tools:layout="@layout/fragment_boat" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
 </navigation>

@@ -19,6 +19,7 @@ tools:context=".homeFragment">
     app:titleTextColor="@android:color/white"
     tools:title="Title" />
 
+
 <com.google.android.material.bottomnavigation.BottomNavigationView
     android:id="@+id/bottomNavigationView"
     android:layout_width="0dp"

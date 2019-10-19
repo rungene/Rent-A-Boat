@@ -26,6 +26,13 @@ class homeFragment : Fragment() {
             .setupWithNavController(navController = navHostFragment.navController )
 
 
+        val toolbar = view.findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
+        navHostFragment.navController.addOnDestinationChangedListener { _, destination, _ ->
+            toolbar.title=destination.label
+        }
+
+
+
         return view
     }
 

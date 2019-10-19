@@ -8,11 +8,11 @@
     <fragment
         android:id="@+id/feedFragment"
         android:name="com.rungenes.rent_a_boat.FeedFragment"
-        android:label="fragment_feed"
+        android:label="Feed "
         tools:layout="@layout/fragment_feed" />
     <fragment
         android:id="@+id/ordersFragment"
         android:name="com.rungenes.rent_a_boat.OrdersFragment"
-        android:label="fragment_orders"
+        android:label="Oders"
         tools:layout="@layout/fragment_orders" />
 </navigation>
